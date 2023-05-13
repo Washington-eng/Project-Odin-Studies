@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&family=Lato&family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Lacquer&family=Lato&family=Single+Day&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Single Day', cursive;
+}
+
+body {
+    background-color: rgb(238, 237, 237);
+    background-repeat: no-repeat;
+}
+
+.flex-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 1px 1px gray;
+}
+
+a:link {
+    color: black
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rgb(235, 176, 88);
+}
+
+a:active {
+    color: black;
+}
+
+.main-container {
+    /* background-color: rgb(143, 141, 141); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.py-16 {
+    padding: 16px 0px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 20px 0px;;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+main > a {
+    margin: 20px 0px;
+}
+
+main > a:hover {
+    color: rgba(24, 23, 23, 0.76);
+}
